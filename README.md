@@ -41,3 +41,14 @@ Repositório para armazenar recursos sobre Git e GitHub do curso Versionamento d
 | Mudar commit de base, preservar alt para novo commit | git reset --soft <ID> |
 | Desfazer o staging de arq., precisa das alt para fazer ajustes/commits | git reset --mixed <ID> |
 | Descartar completamente todas alt. e reverter o branch para commit especificado | git reset --hard <ID> |
+| Trocar de branch ou restaurar arquivos | git checkout |
+| Listar branches locais com commits recentes | git branch -v |
+| Deletar branch | git branch -d <name> |
+| Mesclar branch especificada na atual | git merge <name> |
+| Baixar atualizações da branch remota sem mesclar | git fetch origin main |
+| Comparar diferenças entre a branch local e remota | git diff main origin/main |
+| Mesclar conteúdo da branch remota sem criar uma local | git merge origin/main |
+| Salvar mudanças não commitadas temporariamente | git stash |
+| Listar os stashes salvos | git stash list |
+| Restaurar mudanças do stash mais recente e removê-lo | git stash pop |
+| Restaurar mudanças de um stash sem removê-lo | git stash apply |
