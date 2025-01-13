@@ -31,6 +31,7 @@ Repositório para armazenar recursos sobre Git e GitHub do curso Versionamento d
 | Add | git add <file> |
 | Add (todos) | git add . |
 | Commit (-m -> add msg) | git commit -m |
+| Puxar rep romoto -> local | git pull |
 | Log (vizualizar alterações) | git log |
 | Reflog (detalhado) | git reflog |
 | Remover .git | rm -rf .git |
